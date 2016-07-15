@@ -33,5 +33,6 @@ script: tox
 after_success:
     # Report coverage results to codecov.io
     # and export tox environment variables
-    - pip install -U codecov
-    - codecov -e TOXENV
+    pip install -U codecov
+    codecov
+    # -e TOXENV
