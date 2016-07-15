@@ -12,9 +12,6 @@ UKMDB graph
         :target: https://readthedocs.org/projects/ukmdb_graph/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://img.shields.io/badge/UKMDB-PoC-blue.svg
-        :alt: UKMDB: Proof of Concept
-
 .. image:: https://img.shields.io/pypi/l/ukmdb_graph.svg
 
 .. image:: https://img.shields.io/pypi/pyversions/ukmdb_graph.svg
