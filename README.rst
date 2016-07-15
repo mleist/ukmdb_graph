@@ -5,6 +5,10 @@ UKMDB graph
 .. image:: https://img.shields.io/pypi/v/ukmdb_graph.svg
         :target: https://pypi.python.org/pypi/ukmdb_graph
 
+.. image:: https://scrutinizer-ci.com/g/mleist/ukmdb_graph/badges/quality-score.png?b=master
+        :target: https://scrutinizer-ci.com/g/mleist/ukmdb_graph/?branch=master
+        :alt: Scrutinizer Code Quality
+
 .. image:: https://img.shields.io/travis/mleist/ukmdb_graph.svg
         :target: https://travis-ci.org/mleist/ukmdb_graph
 
