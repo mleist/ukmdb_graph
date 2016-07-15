@@ -33,4 +33,4 @@ python: 3.5
 script: tox
 
 after_success:
-  - codecov
+  - bash <(curl -s https://codecov.io/bash)

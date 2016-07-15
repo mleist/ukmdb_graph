@@ -11,6 +11,8 @@ endef
 export BROWSER_PYSCRIPT
 BROWSER := python -c "$$BROWSER_PYSCRIPT"
 
+py_test_path := $(shell which py.test)
+
 help:
 	@echo "clean - remove all build, test, coverage and Python artifacts"
 	@echo "clean-build - remove build artifacts"
@@ -56,7 +58,7 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source ukmdb_graph py.test
+	coverage run --source ukmdb_graph $(py_test_path)
 
 	coverage report -m
 	coverage html
