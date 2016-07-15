@@ -25,14 +25,12 @@ env:
 - TOXENV=py35
 - TOXENV=py34
 - TOXENV=py27
-install: pip install -U tox
+install:
+  - pip install -U tox
+  - pip install -U codecov
 language: python
 python: 3.5
 script: tox
 
 after_success:
-    # Report coverage results to codecov.io
-    # and export tox environment variables
-    pip install -U codecov
-    codecov
-    # -e TOXENV
+  - codecov
