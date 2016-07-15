@@ -23,7 +23,7 @@ test_requirements = [
 
 setup(
     name='ukmdb_graph',
-    version='0.0.4',
+    version='0.0.5',
     description="UKMDB graph database adapter.",
     long_description=readme + '\n\n' + history,
     author="Markus Leist",
