@@ -12,6 +12,7 @@ UKMDB graph
         :target: https://readthedocs.org/projects/ukmdb_graph/?badge=latest
         :alt: Documentation Status
 
+|python-versions|
 
 UKMDB graph database adapter.
 
